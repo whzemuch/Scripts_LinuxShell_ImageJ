@@ -1,0 +1,28 @@
+
+E:\Dropbox\00_RNAseq00-RNA-seqShellScripts\list_shell_scripts_md
+/mnt/e/Dropbox/00_RNAseq00-RNA-seqShellScripts/
+
+ Volume in drive E is Lenovo_Data
+ Volume Serial Number is 0FA6-3F88
+
+/mnt/e/Dropbox/00_RNAseq00-RNA-seqShellScripts/
+ Directory of E:\Dropbox\00_RNAseq00-RNA-seqShellScripts
+
+
+mkdir -p {alignment,log,qc,raw,results,script}
+
+alias HisT="/mnt/e/Dropbox/00_RNAseq_ShellScripts/align_hisat2.sh"
+alias AspE="/mnt/e/Dropbox/00_RNAseq_ShellScripts/asperaget.sh"
+alias FtqD="/mnt/e/Dropbox/00_RNAseq_ShellScripts/fastq-dump.sh"
+alias FtqC="/mnt/e/Dropbox/00_RNAseq_ShellScripts/fastqc.sh"
+alias xxxx="/mnt/e/Dropbox/00_RNAseq_ShellScripts/griffith-align.sh"
+alias xxxx="/mnt/e/Dropbox/00_RNAseq_ShellScripts/griffith-count.sh"
+alias xxxx="/mnt/e/Dropbox/00_RNAseq_ShellScripts/griffith-getdata.sh"
+alias xxxx="/mnt/e/Dropbox/00_RNAseq_ShellScripts/griffith_Installation.md"
+alias xxxx="/mnt/e/Dropbox/00_RNAseq_ShellScripts/list_shell_scripts_md"
+alias xxxx="/mnt/e/Dropbox/00_RNAseq_ShellScripts/RNA-seq codes from biotrainee.md"
+alias xxxx="/mnt/e/Dropbox/00_RNAseq_ShellScripts/trimgalore.sh"
+
+IDX=/mnt/f/bioinfo_data/refs/mm10_ht2/genome
+IDX=/mnt/f/bioinfo_data/refs/hg19_ht2/genome
+

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#****************************************
+
+
+
+
+
+#****************************************
+
+set -euo pipefail
+IFS=$`\n\\t`
+
+
+##  Positional parameters
+
+name=${1:-}
+
+if [[ -z "$name" ]];then
+   echo "Usage: $0 NAME"
+   exit 1
+fi
+
+echo "Hello $name"

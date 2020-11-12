@@ -1,0 +1,76 @@
+scholar 0.1.7   (03 Jul 2018)
+---------------
+
+* update impact factor data to 2017 (released on 2018-06-26)
+
+* `plot_coauthors` function to plot co-author network (thanks @cimentadaj)
+
+* `get_impactfactor` function to query journal's impact factor (thanks @DominiqueMakowski)
+
+* `getCompleteAuthors` to get the complete list of authors for a publication (thanks @abfleishman)
+
+scholar 0.1.6   (23 May 2018)
+---------------
+
+* add vignette
+
+scholar 0.1.5   (28 September 2017)
+---------------
+
+* update `get_publications` and `get_article_cite_history` according to the change of Google Scholar (thanks @guangchuangyu)
+
+scholar 0.1.4   (21 November 2015)
+---------------
+
+* Fixed bug with missing cookies that was preventing data from being
+  downloaded.
+
+* Converted code from XML to rvest/dplyr for legibility
+
+* For clarity, `get_publications` now uses `cid` as the name of the
+  column used to link to a publication's full citation history.  This
+  avoids any confusion when you add the scholar's id, which is `id`
+  elsewhere in the package.
+
+scholar 0.1.3   (28 September 2015)
+---------------
+
+* Added a `get_article_cite_history` function to get the citation
+  history of a single article (#6, thanks @mkiang)
+
+* Added a `pagesize` argument to `get_publications`.  By default 100
+  publications will be fetched.
+
+* Added an option to flush cache in `get_publications`
+
+* Improved performance of large numbers of publications (#15, thanks
+  @jefferis)
+
+* Improved documentation
+
+scholar 0.1.2   (22 August 2014)
+---------------
+
+* Updated functions to work with new Google Scholar layout
+
+* Added a CITATION file
+
+* Added the publication id to `get_publications` (thanks @dfalster)
+
+scholar 0.1.1
+---------------
+
+* Fixed bug with incorrect parsing of profile summary table (#2)
+
+* `predict_h_index` now predicts a scholar's h-index for every year in
+  the next ten years, not just at 1, 5, and 10 year intervals.  Thanks
+  to Daniel Acuna for providing the necessary regression coefficients.
+
+scholar 0.1.0
+---------------
+
+* initial release
+
+* get profile and publications data for researchers on Google Scholar
+
+* compare multiple scholars and predict future h-index values

@@ -1,0 +1,11 @@
+
+############################################
+
+
+############################################
+
+Run by whzemuch on Tue, Jun 09, 2020 11:25:48 PM
+
+magick montage  -label %d%f -title Montage-bash_Magick_test -tile 3x -geometry 400x300+4+4 @list.txt Montage-bash_Magick_test.jpg
+montage: unable to open image '@list.txt': No such file or directory @ error/blob.c/OpenBlob/3497.
+montage:  `Montage-bash_Magick_test.jpg' @ error/montage.c/MontageImageCommand/1754.
