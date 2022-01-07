@@ -1,24 +1,21 @@
-ECHO OFF
+@ECHO OFF
 CLS
 Title  "Select a folder to go"
 COLOR 0a  
 REM refer to: https://ss64.com/nt/color.html
 
 :MENU
+
+ECHO ***************************************
+ECHO * Menu: Select a fonder to go... *
+ECHO ***************************************
 ECHO.
-ECHO ..........................................................
+ECHO * 1 - Go to the folder  for Yeh Lab
+ECHO * 2 - Go to the folder  for Chen Lab  
+ECHO * 3 - Go to the folder  for Kamat Lab
+ECHO * 4 - EXIT
 ECHO.
-ECHO PRESS 1, 2 OR 3 to select your task, or 4 to EXIT.
-ECHO ..........................................................
-ECHO.
-ECHO 	1 - Go to the folder  for Yeh Lab
-ECHO.
-ECHO 	2 - Go to the folder  for Chen Lab  
-ECHO.
-ECHO 	3 - Go to the folder  for Kamat Lab
-ECHO.
-ECHO 	4 - EXIT
-ECHO.
+ECHO ***************************************
 
 set /p choice=Type 1, 2, 3, or 4 then press ENTER:  
 

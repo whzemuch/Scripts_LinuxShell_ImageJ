@@ -22,7 +22,7 @@ pattern=JPG
 for f in $(find . -type f -name "*.${pattern}"); do
     echo $f
     magick convert -sampling-factor 4:2:0 -strip -quality 80 -interlace Plane \
-	    $f $f    # use the same name
+	    $f new_${f}    # use the same name
 done
 
 # change the name for line 24:  $f  "$(dirname "$f")/$(basename ${f%.*})_small.${pattern}"

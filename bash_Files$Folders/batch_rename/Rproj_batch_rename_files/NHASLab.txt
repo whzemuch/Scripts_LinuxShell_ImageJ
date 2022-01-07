@@ -1,0 +1,6 @@
+2015-2016	Acrylamide & Glycidamide	AMDGYD_I Doc	AMDGYD_I Data [XPT - 127.8 KB]	Dec-19
+2013-2014	Acrylamide & Glycidamide - Special Sample	AMDGDS_H Doc	AMDGDS_H Data [XPT - 123.7 KB]	Dec-19
+1999-2000	Aflatoxin B1-lysine - Serum (Surplus)	SSAFB_A Doc	SSAFB_A Data [XPT - 945.1 KB]	Aug-12
+2007-2008	Albumin & Creatinine - Urine	ALB_CR_E Doc	ALB_CR_E Data [XPT - 319.1 KB]	Sep-09
+1999-2000	Albumin & Creatinine - Urine	LAB16 Doc	LAB16 Data [XPT - 306.9 KB]	Jun-02
+2005-2006	Albumin & Creatinine - Urine	ALB_CR_D Doc	ALB_CR_D Data [XPT - 317.3 KB]	Nov-07
